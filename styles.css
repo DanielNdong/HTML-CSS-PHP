@@ -1,0 +1,417 @@
+* {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    border-bottom: 14px solid #344653;
+}
+
+.barra-info-covid a {
+    text-decoration: none;
+}
+
+.img-encabezado {
+    background-image: url("IMAGES/Triangulo.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.menu-encabezado ul {
+    list-style: none;
+}
+
+
+/**CHECK 'LA UNIVERSIDAD'****/
+
+.texto-universidad {
+    background: #fff;
+    height: 200px;
+    width: 400px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#uni {
+    display: none;
+}
+
+#uni:checked~.texto-universidad {
+    visibility: visible;
+    opacity: 1;
+}
+
+.unieff {
+    color: #fff;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.unieff:hover {
+    padding-bottom: 1px;
+    border-bottom: 3px solid #fff;
+    transition: all 0.5s ease;
+}
+
+
+/*********************/
+
+
+/**CHECK 'FACULTADES'****/
+
+.texto-facultades {
+    background: #d8d8d8;
+    height: 300px;
+    width: 300px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#fac {
+    display: none;
+}
+
+#fac:checked~.texto-facultades {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*********************/
+
+
+/**CHECK 'CURSOS'****/
+
+.texto-cursos {
+    background: #fff;
+    height: 200px;
+    width: 200px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#cur {
+    display: none;
+}
+
+#cur:checked~.texto-cursos {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*********************/
+
+
+/**CHECK 'LA VIDA CAMPUS'****/
+
+.texto-campus {
+    background: #fff;
+    height: 190px;
+    width: 250px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#vc {
+    display: none;
+}
+
+#vc:checked~.texto-campus {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/***************************/
+
+
+/**CHECK 'LA MATRICULA'****/
+
+.texto-matricula {
+    background: #fff;
+    height: 180px;
+    width: 200px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#mtc {
+    display: none;
+}
+
+#mtc:checked~.texto-matricula {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/****************/
+
+h2 {
+    font-family: serif;
+}
+
+label {
+    font-size: 20px;
+    font-family: serif;
+    font-style: italic;
+}
+
+
+/*SIGLAS 'UNGE'***/
+
+.siglas {
+    height: 30px
+}
+
+h2 {
+    size: 10px;
+    margin-bottom: 0;
+}
+
+.verde {
+    height: 5px;
+    width: 50px;
+    background: #0D710A;
+}
+
+.blanco {
+    height: 5px;
+    width: 50px;
+    background: #fff;
+}
+
+.rojo {
+    height: 5px;
+    width: 50px;
+    background: #F90101;
+}
+
+.azul {
+    height: 5px;
+    width: 50px;
+    background: #6C7CCB;
+}
+
+.type-title {
+    width: 200px;
+    border-bottom: 3px solid #851616;
+}
+
+.card {
+    width: 230px;
+    height: 380px;
+}
+
+.card-img-top {
+    height: 170px
+}
+
+.container {
+    display: block;
+    justify-content: center;
+}
+
+.card-body {
+    background: #851616;
+}
+
+.enlace1 a {
+    text-decoration: none;
+    color: #632D2D;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.galeria {
+    height: 600px;
+    border-top: 5px solid#344653;
+    background: #632D2D;
+    position: relative;
+}
+
+.foto1 {
+    height: 300px;
+    width: 200px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+
+.foto2 {
+    height: 100px;
+    width: 320px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.container1 {
+    background-image: url("IMAGES/colectivo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    width: 300px;
+    position: absolute;
+    left: 190px;
+    top: 350px;
+}
+
+.container2 {
+    background-image: url("IMAGES/birretes.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+    width: 240px;
+    position: absolute;
+    left: 840px;
+    top: 30px;
+}
+
+.container3 {
+    background-image: url("IMAGES/airelibre.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    left: 240px;
+    top: 30px;
+}
+
+.container4 {
+    background-image: url("IMAGES/administracion.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 520px;
+    top: 270px
+}
+
+.container5 {
+    background-image: url("IMAGES/saludo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    width: 300px;
+    position: absolute;
+    left: 520px;
+    top: 30px;
+}
+
+.img-btn {
+    width: 160px;
+    height: 60px;
+    color: #fff;
+    background: transparent;
+    border: 4px solid #731010;
+    transition: all .5s ease;
+}
+
+.img-btn:hover {
+    background: #731010;
+    transition: all .3s ease;
+}
+
+.img-btn a strong {
+    color: #fff;
+}
+
+.img-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-cover {
+    background-image: url("IMAGES/codigos.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-top: 8px solid #354A67;
+}
+
+.container-facult {
+    background-color: rgb(105, 140, 164, 0.24);
+    height: 600px;
+    width: 100%
+}
+
+.subcontenedor {
+    height: 100%;
+    width: 100%;
+    background: rgb(105, 140, 164, .24);
+}
+
+.zone-facult {
+    height: 100%;
+    width: 900px;
+    background: #fff;
+    border-left: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC;
+}
+
+.zone-facult .area-fac {
+    height: 547px;
+    padding: 5px;
+}
+
+.tips-fac1 {
+    height: 176px;
+}
+
+.tips-fac2 {
+    height: 170px;
+}
+
+.tips-fac3 {
+    margin-top: 14px;
+    height: 180px;
+    background: #CECECE;
+}
+
+.fac-tittle {
+    color: #fff;
+    background: #8F1313;
+    width: 250px;
+    border-radius: 3px solid transparent;
+}
+
+.fac-tittleE {
+    background: #fff;
+    width: 250px;
+    border-radius: 2px solid black;
+    transition: all .5s ease;
+}
+
+.fac-tittleE:hover {
+    color: #fff;
+    background: #8F1313;
+    width: 250px;
+    border-radius: 3px solid #c3c3c3;
+    transition: all .3s ease;
+}
+
+.text-description {
+    width: 470px;
+}
+
+.img-description {
+    width: 270px;
+    height: 160px;
+}
+
+.img-descriptionE {
+    margin-left: 3px;
+    margin-top: 8px;
+    width: 240px;
+    height: 160px;
+}
